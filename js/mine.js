@@ -121,12 +121,7 @@ class Mine {
 				x: this.x,
 				y: this.y,
 				radius: this.explosionRadius
-			}) && !player.dead) {
-				//MINE EXPLODED NEAR PLAYER && PLAYER ISNT DEAD
-
-				//explode player tank
-				player.explode();
-			}
+			})
 		}
 	}
 
