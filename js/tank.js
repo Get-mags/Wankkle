@@ -225,8 +225,8 @@ class Tank {
 		this.y = y;
 		this.centerX = this.x + this.width / 2;
 		this.centerY = this.y + this.height / 2;
-		this.speed = 100;
-		this.rotationSpeed = 500;
+		this.speed = 150;
+		this.rotationSpeed = 100;
 		this.angle = angle;
 		this.turretAngle = turretAngle;
 		this.color = color;
