@@ -434,7 +434,7 @@
 			if (CURR_LEVEL == 0) {
 				STAGE_CACHE.player.shoot();	
 			} else {
-				if (!mouseOnPause()) {
+				if (!mouseOnPause() || e.keyCode == 90) {
 					STAGE_CACHE.player.shoot();		
 				}
 			}
