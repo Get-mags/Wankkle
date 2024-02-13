@@ -401,8 +401,6 @@ class Shell {
 					enemy.tank.teleportExplosion();
 
 					playSound(hitByTele);
-				} else {
-					player.explode();
 				}
 
 				playSound(shellOut);
