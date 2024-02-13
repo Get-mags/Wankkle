@@ -305,7 +305,7 @@ class Shell {
 					}
 				}
 
-				this.ricochet++;
+				this.ricochet--;
 
 				switch (this.speed) {
 					case NORMAL_SHELL:
